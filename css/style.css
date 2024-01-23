@@ -1,0 +1,168 @@
+:root{
+    --main-font: "Outfit", sans-serif;
+    --main-font-size:16px;
+    --main-bg-color: hsl(0,0%,100%);
+    --main-text-color: hsl(180,1%,32%);
+    --accent-color: hsl(47,100%,45%);
+
+}
+
+html{
+    box-sizing: border-box;
+}
+::before,
+::after{
+    box-sizing: inherit;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, ul,li.p {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+color: var(--main-text-color);
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.fbx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section{
+    min-height: 190px;
+}
+
+.header__menu {
+    justify-content: center;
+    gap: 40px;
+}
+
+.header__menu-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.header__menu-link.active {
+    font-weight: 700;
+    color: var(--accent-color);
+    
+}
+
+
+.hero {
+    min-height: 940px;
+    position: relative;
+}
+
+hgroup h1{
+    font-weight: 700;
+    font-size: 15.625rem;
+    line-height: 315px;
+    text-transform: uppercase;
+    margin-inline-start: 55px;
+}
+
+hgroup h2 {
+font-weight: 700;
+text-align: end;
+font-size: 24px;
+line-height: 30px;
+text-transform: lowercase;
+}
+
+.hero > img {
+    margin-block-start: -235px;
+}
+
+.hero article{
+width: 310px;
+height: 315px;
+position: absolute;
+right: 10px;
+bottom: 45px;
+}
+
+.hero article h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-block-end: 55px;
+}
+
+
+.hero__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero__list-item {
+    background: hsla(0,0%,85%, 0.5);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+
+.left__line {
+    padding-inline-start: 30px;
+    border-inline-start: 5px solid var(--accent-color);
+    margin-top: 10px;
+    height: 45px
+}
+
+.left__line  h4{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.left__line p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.content p{}
+.content {}
+
+
+
+.contact {}
+
+.footer__menu {}
+
+.footer__menu-link {}
+
+.social {}
+
+.social__menu {}
+
+.cocial__menu-link {}
+
+.copyright {}
