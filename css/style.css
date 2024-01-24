@@ -4,7 +4,6 @@
     --main-bg-color: hsl(0,0%,100%);
     --main-text-color: hsl(180,1%,32%);
     --accent-color: hsl(47,100%,45%);
-
 }
 
 html{
@@ -111,7 +110,6 @@ bottom: 45px;
     margin-block-end: 55px;
 }
 
-
 .hero__list {
     display: flex;
     flex-direction: column;
@@ -125,7 +123,6 @@ bottom: 45px;
     align-items: center;
     gap: 10px;
 }
-
 
 .left__line {
     padding-inline-start: 30px;
@@ -164,8 +161,6 @@ bottom: 45px;
     text-align: justify;
     margin-block-end: 20px;
 }
-
-
 
 .contacts {
     padding-block-start: 30px;
